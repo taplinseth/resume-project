@@ -1,0 +1,160 @@
+.grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 48% 52%;
+    color: #707070;
+    background: #5C5C5C;
+    font-family: 'Outfit', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.headShot {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+section1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #e7e7e7;
+    border-bottom: 5px solid grey;
+}
+
+.name {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 35px;
+}
+
+.occupation {
+    margin-left: 40px;
+    margin-left: 40px;
+    margin-top: -25px;
+    font-size: 30px;
+}
+
+section2 {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    background-color: rgb(214, 206, 206);
+    border-bottom: 5px solid grey;
+}
+
+.education {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.bachelor {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.university {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+section3 {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    background-color: #e7e7e7;
+}
+
+.aboutMe {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+ 
+#aboutMeTextBlock {
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+.skills {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+#skillList {
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.contacts {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+#contactsList {
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section4 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    background-color: rgb(214, 206, 206);
+}
+
+.experience {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.title1 {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+#title1Para {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.title2 {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+#title2Para {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.title3 {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+#title3Para {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+    margin-top: -10px;
+}
